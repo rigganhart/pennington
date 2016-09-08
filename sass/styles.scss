@@ -1,0 +1,48 @@
+body {
+  // padding-top: 70px;
+    background-image: url("images/hondas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -110px;
+
+
+    background-attachment:fixed;
+
+}
+
+.navLogo {
+  width: 70%;
+}
+.navLogoHolder {
+  width: 10%
+}
+.mainContainer{
+  background-color: transparent;
+  overflow: scroll;
+  z-index: 2;
+}
+.spacing {
+background-color: rgba(41, 16, 16, 0.54);  height: 300px;
+padding: 16% 0% 2% 5%;
+    color: white;
+}
+.spacing h1{
+  margin: 0;
+}
+.content{
+  background-color: white;
+  height: 400px;
+  padding: 5%;
+}
+footer{
+  padding: 5%;
+  background-color: black;
+  height: 200px;
+  color: white;
+}
+footer h5{
+  display: block;
+}
+footer img{
+  float: right;
+}

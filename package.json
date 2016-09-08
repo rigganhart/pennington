@@ -1,0 +1,23 @@
+{
+  "name": "pennington",
+  "version": "1.0.0",
+  "description": "website for pennington power",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigganhart/pennington.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rigganhart/pennington/issues"
+  },
+  "homepage": "https://github.com/rigganhart/pennington#readme",
+  "dependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
