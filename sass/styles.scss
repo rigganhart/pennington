@@ -4,10 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -110px;
-
-
     background-attachment:fixed;
-
 }
 
 .navLogo {
@@ -15,6 +12,12 @@ body {
 }
 .navLogoHolder {
   width: 10%
+}
+.navFacebook a{
+  font-size: 5em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #3b5998;
 }
 .mainContainer{
   background-color: transparent;
@@ -25,15 +28,36 @@ body {
 background-color: rgba(41, 16, 16, 0.54);  height: 300px;
 padding: 16% 0% 2% 5%;
     color: white;
+    z-index: 1;
 }
 .spacing h1{
   margin: 0;
 }
+.bottomSpacing{
+  background-color: rgba(41, 16, 16, 0.54);
+   height: 200px;
+  padding: 16% 0% 2% 5%;
+      color: white;
+      z-index: 1;
+}
+
+
 .content{
   background-color: white;
-  height: 400px;
-  padding: 5%;
+  min-height: 400px;
+  padding: 2%;
+  box-shadow: 0px 5px 5px black;
+  overflow: auto;
 }
+.item img{
+  height: 100%;
+  overflow: hidden;
+}
+
+.brand img{
+  width: 100%;
+}
+
 footer{
   padding: 5%;
   background-color: black;
